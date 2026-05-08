@@ -1,0 +1,9 @@
+2026-05-08 11:00:18,254 - INFO - Job started
+2026-05-08 11:00:18,254 - INFO - Loading config from config.yaml
+2026-05-08 11:00:18,255 - INFO - Config validated: seed=42, window=5, version=v1
+2026-05-08 11:00:18,256 - INFO - Loading data from data.csv
+2026-05-08 11:00:18,275 - INFO - Successfully loaded 10000 rows
+2026-05-08 11:00:18,275 - INFO - Computing rolling mean with window=5
+2026-05-08 11:00:18,279 - INFO - Generating binary signals
+2026-05-08 11:00:18,283 - INFO - Processing complete. Metrics: {'version': 'v1', 'rows_processed': 10000, 'metric': 'signal_rate', 'value': 0.4989, 'latency_ms': 28, 'seed': 42, 'status': 'success'}
+2026-05-08 11:00:18,284 - INFO - Job finished successfully
